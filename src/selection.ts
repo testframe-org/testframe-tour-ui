@@ -1,4 +1,4 @@
-// The start screen's decisions (docs/test-tour.md, screen 1) and the frame screen's mongo-write
+// The start screen's decisions (agents/specs/test-tour.md, screen 1) and the frame screen's mongo-write
 // warning (plan Phase 5, item 4). Pure functions: the screens render them, the tests pin them.
 
 import type { EnvironmentSummary, FrameSummary, StreamCard } from './protocol';

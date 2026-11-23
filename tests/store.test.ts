@@ -1,4 +1,4 @@
-// Tour persistence and the reload rule (docs/test-tour.md, "Tour state"): browser IndexedDB, one
+// Tour persistence and the reload rule (agents/specs/test-tour.md, "Tour state"): browser IndexedDB, one
 // record per (origin, project), and a frame that was running when the page went away comes back
 // `interrupted`.
 

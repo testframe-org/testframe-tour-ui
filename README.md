@@ -1,6 +1,6 @@
 # testframe-tour-ui
 
-The **test tour**: the screens, the tour state and the PDF report (spec: `docs/test-tour.md` at the
+The **test tour**: the screens, the tour state and the PDF report (spec: `agents/specs/test-tour.md` at the
 repo root — it wins over this file). One React implementation, consumed by two hosts:
 
 | Host | How it consumes this package | Tour API base |

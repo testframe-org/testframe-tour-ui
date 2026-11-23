@@ -1,4 +1,4 @@
-// One catalog for the screens and the PDF (docs/test-tour.md, "i18n"): English authoritative,
+// One catalog for the screens and the PDF (agents/specs/test-tour.md, "i18n"): English authoritative,
 // pt-BR complete.
 
 import { describe, expect, test } from 'bun:test';

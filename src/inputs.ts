@@ -1,4 +1,4 @@
-// The frame screen's input editors (docs/test-tour.md, "Inputs" and "Input cards"). An input is
+// The frame screen's input editors (agents/specs/test-tour.md, "Inputs" and "Input cards"). An input is
 // edited as JSON text, prefilled with the card's saved code, validated live and locally; the
 // override applies to this tour only and is never written anywhere in the project.
 

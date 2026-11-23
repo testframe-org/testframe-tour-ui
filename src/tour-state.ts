@@ -1,4 +1,4 @@
-// The tour state (docs/test-tour.md, "Tour state"): what the browser owns. It is built from the
+// The tour state (agents/specs/test-tour.md, "Tour state"): what the browser owns. It is built from the
 // run events alone, kept in IndexedDB (state/store.ts) and is the single input of the PDF. Every
 // function here is pure so the screens and the tests share one implementation.
 

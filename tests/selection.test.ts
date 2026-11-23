@@ -1,4 +1,4 @@
-// The start screen's decisions (docs/test-tour.md, screen 1) and the frame screen's mongo-write
+// The start screen's decisions (agents/specs/test-tour.md, screen 1) and the frame screen's mongo-write
 // warning (screen 2, "Write warning").
 
 import { describe, expect, test } from 'bun:test';

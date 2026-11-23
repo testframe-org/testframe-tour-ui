@@ -1,4 +1,4 @@
-// The report's structure (docs/test-tour.md, "PDF"): cover, summary with the resolved connections,
+// The report's structure (agents/specs/test-tour.md, "PDF"): cover, summary with the resolved connections,
 // one section per frame with its inputs and the evidence of every card, and the failures appendix.
 // Rendered for real and read back with pdf.js, in both languages.
 
@@ -126,7 +126,7 @@ describe('the report', () => {
 
   test('a block longer than the limit is cut with the note', async () => {
     const long = Array.from({ length: MAX_BLOCK_LINES + 5 }, (_, i) => `row ${i + 1}`).join('\n');
-    // Only an error card prints its `output` (docs/test-tour.md, PDF section 3), so the long block
+    // Only an error card prints its `output` (agents/specs/test-tour.md, PDF section 3), so the long block
     // goes on the failing card of the second frame.
     const big: Tour = {
       ...tour,

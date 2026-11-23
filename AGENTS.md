@@ -1,7 +1,7 @@
 # AGENTS.md — testframe-tour-ui (the test tour)
 
 React + TypeScript package: the **tour screens, the tour state and the PDF report**. Spec:
-`docs/test-tour.md` at the repo root — it wins over this file. Build, layout, hosting and the font
+`agents/specs/test-tour.md` at the repo root — it wins over this file. Build, layout, hosting and the font
 pipeline: `README.md` in this folder.
 
 ## Golden rules
@@ -30,7 +30,7 @@ pipeline: `README.md` in this folder.
   their labels are (`src/labels.ts`, shared with the PDF).
 - Styling is injected plain CSS with a `tft-` prefix (`src/styles.ts`) — not Tailwind, so neither
   host has to scan this package.
-- Wire shapes live in `src/protocol.ts` and mirror `docs/test-tour.md` and `docs/runner-protocol.md`.
+- Wire shapes live in `src/protocol.ts` and mirror `agents/specs/test-tour.md` and `agents/specs/runner-protocol.md`.
   When the plugin's API changes, change them here in the same pass.
 
 ## Commands

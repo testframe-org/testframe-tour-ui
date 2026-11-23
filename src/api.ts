@@ -1,4 +1,4 @@
-// The tour UI's client of the stateless tour API (docs/test-tour.md, "Tour API"). The base URL is
+// The tour UI's client of the stateless tour API (agents/specs/test-tour.md, "Tour API"). The base URL is
 // injected by the host: `/api/v1/tour` in the plugin, `/api/tour` in the IDE. Every answer is
 // already redacted by the plugin, so nothing here has to know about secrets.
 

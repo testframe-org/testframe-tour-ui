@@ -1,5 +1,5 @@
-// The wire shapes of the tour API and of the run stream (docs/test-tour.md, "Tour API" and
-// "Run events"; docs/runner-protocol.md, "CardResult"). These are the plugin's read-only
+// The wire shapes of the tour API and of the run stream (agents/specs/test-tour.md, "Tour API" and
+// "Run events"; agents/specs/runner-protocol.md, "CardResult"). These are the plugin's read-only
 // decoders' output: the tour UI never reads a project file and never invents a field.
 
 /** A card's outcome, as the plugin reports it. */
@@ -134,7 +134,7 @@ export interface CardDetail {
   [key: string]: unknown;
 }
 
-/** One card's result (`docs/runner-protocol.md`, "CardResult"). */
+/** One card's result (`agents/specs/runner-protocol.md`, "CardResult"). */
 export interface CardResult {
   varName: string;
   status: CardStatus;

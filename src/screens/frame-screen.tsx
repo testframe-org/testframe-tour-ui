@@ -1,4 +1,4 @@
-// Screen 2 — one per selected frame (docs/test-tour.md, screen 2): the input JSON editors,
+// Screen 2 — one per selected frame (agents/specs/test-tour.md, screen 2): the input JSON editors,
 // Run / Cancel, live progress from the NDJSON stream, the result with its evidence, Run again,
 // Skip frame and the Back / Next / Finish tour navigation.
 
@@ -162,7 +162,7 @@ export function FrameScreen({ api, tour, frameName, summary, mutate, onNavigate,
   const steps = frame ? stepsOf(frame) : [];
   const allCards = frame ? cardsOf(frame) : [];
 
-  // The write warning (docs/test-tour.md, screen 2 "Write warning"): precise, naming the cards,
+  // The write warning (agents/specs/test-tour.md, screen 2 "Write warning"): precise, naming the cards,
   // as soon as the frame's cards are known; from the frame's mongo sources before the first run.
   const writes = mongoWriteCards(allCards);
   const mongoRefs = summary ? mongoSourceRefs(summary) : [];

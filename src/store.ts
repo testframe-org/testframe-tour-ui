@@ -1,4 +1,4 @@
-// Tour persistence (docs/test-tour.md, "Tour state"): browser IndexedDB, one record per
+// Tour persistence (agents/specs/test-tour.md, "Tour state"): browser IndexedDB, one record per
 // (origin, project), written after every event. No tour state ever reaches disk in a project —
 // the plugin is read-only and serves the same UI, so the two hosts behave identically. The record
 // holds only redacted data, because the plugin redacts before anything leaves it.

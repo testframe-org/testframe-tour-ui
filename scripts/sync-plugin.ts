@@ -1,5 +1,5 @@
 // Copies the static build (dist/) into the plugin's resources so the jar serves the tour screens
-// at /tour (docs/test-tour.md; plan Phase 5, item 5). Run by `bun run build`; the plugin's
+// at /tour (agents/specs/test-tour.md; plan Phase 5, item 5). Run by `bun run build`; the plugin's
 // src/main/resources/static/tour/ is generated output and is not committed.
 
 import { cpSync, existsSync, mkdirSync, readdirSync, rmSync } from 'node:fs';

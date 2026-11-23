@@ -1,4 +1,4 @@
-// One message catalog for the screens and for the PDF (docs/test-tour.md, "i18n"): English is
+// One message catalog for the screens and for the PDF (agents/specs/test-tour.md, "i18n"): English is
 // authoritative, pt-BR is complete. `pdf.*` keys are the report's strings. Never translated:
 // project data (titles, code, values) and every protocol token (`status`, `result`, `decision`).
 

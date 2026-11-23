@@ -1,4 +1,4 @@
-// The PDF report (docs/test-tour.md, "PDF"): cover, summary, one section per frame with the
+// The PDF report (agents/specs/test-tour.md, "PDF"): cover, summary, one section per frame with the
 // evidence of every card, and a failures appendix. Built in the browser from the tour state alone
 // — the state holds only data the plugin already redacted, so the report cannot carry a secret.
 // This module is reached only through ./index.ts's lazy import, keeping @react-pdf/renderer and

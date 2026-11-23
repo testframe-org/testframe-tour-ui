@@ -1,4 +1,4 @@
-// The tour-ui half of the redaction acceptance test (docs/test-tour.md, "Redaction", item 5): the
+// The tour-ui half of the redaction acceptance test (agents/specs/test-tour.md, "Redaction", item 5): the
 // text extracted from the generated PDF contains no occurrence of a secret — raw, JSON-escaped or
 // URL-encoded. The fixture mirrors the plugin's RedactionBoundaryTest: a secret declared in
 // sources.{env}.private.yaml, sent as an openapi header and as a mongo URI password, echoed back

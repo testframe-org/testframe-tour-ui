@@ -1,4 +1,4 @@
-// The frame screen's input editors (docs/test-tour.md, "Inputs" and "Input cards").
+// The frame screen's input editors (agents/specs/test-tour.md, "Inputs" and "Input cards").
 
 import { describe, expect, test } from 'bun:test';
 import type { InputCard } from '../src/protocol';

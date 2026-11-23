@@ -1,6 +1,6 @@
 'use client';
 
-// The public entry point of @testframe/tour-ui (docs/test-tour.md, "Tour UI").
+// The public entry point of @testframe/tour-ui (agents/specs/test-tour.md, "Tour UI").
 //
 // Two hosts, one implementation:
 //   - the IDE compiles these sources directly (tsconfig "paths" → src/index.ts) and renders
@@ -13,7 +13,7 @@
 
 export { TourApp, resumeIndex, type TourAppProps } from './tour-app';
 
-// The tour API client (docs/test-tour.md, "Tour API").
+// The tour API client (agents/specs/test-tour.md, "Tour API").
 export {
   TourApiError,
   createTourApi,
@@ -25,7 +25,7 @@ export {
 } from './api';
 export { NdjsonError, readNdjson, splitLines } from './ndjson';
 
-// The tour state and its persistence (docs/test-tour.md, "Tour state").
+// The tour state and its persistence (agents/specs/test-tour.md, "Tour state").
 export * from './tour-state';
 export { createTourStore, type TourStore } from './store';
 

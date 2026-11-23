@@ -1,4 +1,4 @@
-// Screen 3 — Final (docs/test-tour.md, screen 3): the tour result, the summary table, Download PDF
+// Screen 3 — Final (agents/specs/test-tour.md, screen 3): the tour result, the summary table, Download PDF
 // and New tour. Finishing is final — the tour can no longer run frames — but the PDF can be
 // downloaded again, in either language, until **New tour** discards the tour.
 

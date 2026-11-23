@@ -1,7 +1,7 @@
 'use client';
 
 // The tour app: the three screens and the tour state, wired to one host-injected API base URL and
-// one IndexedDB store. It owns the tour (docs/test-tour.md, "Tour state") and writes nothing to
+// one IndexedDB store. It owns the tour (agents/specs/test-tour.md, "Tour state") and writes nothing to
 // any project folder. Both hosts render this same component: the IDE from its /tour page with
 // apiBase "/api/tour", the plugin's static bundle at /tour with apiBase "/api/v1/tour".
 

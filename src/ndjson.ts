@@ -1,4 +1,4 @@
-// The NDJSON reader of a run stream (docs/test-tour.md, "Run events"): one JSON object per line,
+// The NDJSON reader of a run stream (agents/specs/test-tour.md, "Run events"): one JSON object per line,
 // flushed per event. It is one `fetch` read line by line — the same format `/api/v1/run` streams.
 
 /** Raised when a line of the stream is not JSON, or when the stream ends in the middle of a line. */

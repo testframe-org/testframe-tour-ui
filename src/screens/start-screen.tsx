@@ -1,4 +1,4 @@
-// Screen 1 — Start (docs/test-tour.md, "Screens"): pick the environment and the frames, with the
+// Screen 1 — Start (agents/specs/test-tour.md, "Screens"): pick the environment and the frames, with the
 // missing-source check up front. Start creates the tour in the browser; it sends no request.
 
 import { useCallback, useEffect, useMemo, useState } from 'react';

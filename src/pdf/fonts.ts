@@ -1,4 +1,4 @@
-// The PDF's fonts (docs/test-tour.md, "PDF"): subset DejaVu Sans and DejaVu Sans Mono, shipped
+// The PDF's fonts (agents/specs/test-tour.md, "PDF"): subset DejaVu Sans and DejaVu Sans Mono, shipped
 // with the package (src/fonts/, generated into ./font-data.ts) and registered as data URLs, so no
 // host has to serve a font file. Registered on import: this module is only reachable from the
 // lazily imported PDF chunk, so the fonts never land in the initial bundle.

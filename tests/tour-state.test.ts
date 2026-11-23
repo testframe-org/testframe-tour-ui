@@ -1,4 +1,4 @@
-// The tour state machine (docs/test-tour.md, "Tour state"): the transitions the screens drive and
+// The tour state machine (agents/specs/test-tour.md, "Tour state"): the transitions the screens drive and
 // the rules the report depends on.
 
 import { describe, expect, test } from 'bun:test';

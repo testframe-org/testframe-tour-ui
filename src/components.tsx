@@ -1,5 +1,5 @@
 // The screen components the three tour screens share: status badges, code blocks, key/value rows
-// and the card detail view (the evidence of docs/runner-protocol.md, "CardResult"). The PDF has
+// and the card detail view (the evidence of agents/specs/runner-protocol.md, "CardResult"). The PDF has
 // its own rendering of the same evidence (react-pdf cannot render DOM elements), but both read the
 // same detail keys and the same labels (labels.ts).
 
